@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('welcu/process', 'WelcuController@process')->name('welcu.process');
